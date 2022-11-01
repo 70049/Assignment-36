@@ -1,0 +1,102 @@
+Q1.   Use for loop to itereate 0 to 100 and print the sum of all numbers.
+Ans.   let sum=0;
+       for(let i=0;i<=100;i=i+1){
+          sum=sum+i;
+        }
+        console.log(sum);
+        
+Q2.   Use for loop to iterate from 0to100 and print the sum of all even and odd numbers.
+              print sum of all number as array.
+Ans.   let sum=0;
+        for(let i=0;i<=10;i=i+2){
+            sum=sum+i;
+        }
+        console.log(sum);
+        for(let i=1;i<=100;i=i+2){
+              sum=sum+i;
+              }
+        console.log(sum);
+        const arr=[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20];
+        const sum=[];
+        for(let i=0;i<arr.length;i=i+2){
+            sum.push(arr[i]);
+        }
+        console.log(sum);
+        const arr=[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20];
+        const sum=[];
+        for(let i=1;i<arr.length;i=i+2){
+            sum.push(arr[i]);
+        }
+        console.log(sum);
+        
+Q3.   Devlope a small script which generate any number of character random id.
+Ans.    let result='';
+        let value="abcdefghijklmnopqrstuvwxyz1234567890!@#$%^&*_|`~";
+        for(let i=0;i<=7;i++){
+            result +=value.charAt(Math.floor(Math.random()*value.length));
+        }
+        console.log(result);
+        
+Q4.   Create a counteries array check if there is a country or counteries contining the word 'and'.if there are countries contining 'and'
+       print it as array. if there is no country contining the word 'and'. print all these countries without 'and'.
+Ans.   let country=['India','China','japan','America','New-York','South Africa'];
+        for(let i=0;i<country.length;i++){
+            if(country[i]=="and"){
+                console.log(country);
+                break;
+            }
+            else{
+                console.log(country[i]);}}
+            
+Q5.   This is a fruit array ['banana','orange','mango','lemon'] reverse the order without using reverse method.
+Ans.    const fruit=["banana","Mango","lemon","Orange"];
+        const newFruit=[];
+        for(let i=fruit.lenth-1;i>=0;i--){
+              newFruit.push(fruit[i]);
+              }
+        console.log(newFruit);
+Q6.   Declare a function name captilizeArray. it take array as a parameter and it returns the-captilizeArray.
+Ans.    function cap_Array(arr=[]){
+            let capital=[];
+            for(let i=0;i<arr.length;i++){
+                capital.push(arr[i].toUpperCase());
+            }
+            console.log(capital);
+        }
+
+        cap_Array(['mango','lichi','lemon']);
+                
+Q7.   Write a function called sumOfArrayItem, it takes an array as a parameter and return the sum of all items.
+Ans.    function sumArray(array) {
+        const ourArray = [1, 4, 0, 9, -3];
+        let sum = 0;
+        for (let i = 0; i < ourArray.length; i += 1) {
+          sum += ourArray[i];
+        }
+        return summ;}
+      console.log(sumArray([1, 4, 0, 9, -3]));
+        
+Q8.   Write a function called modifyArray which take array as a paremeter and modify the particular element.
+Ans.    
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+               
