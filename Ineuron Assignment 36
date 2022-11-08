@@ -77,7 +77,29 @@ Ans.    function sumArray(array) {
       console.log(sumArray([1, 4, 0, 9, -3]));
         
 Q8.   Write a function called modifyArray which take array as a paremeter and modify the particular element.
-Ans.    
+Ans.   function modifyArray(arr){
+          let newArray=arr;
+          newArray.splice(4,5,"CPP");
+          return arr;
+              }
+     console.log(modifyArray(["HTML",'CSS',"JAVASCRIPT","REACT.JS","DJANGO","SQL"]));
+Q9.   Write  a function to check if all the items of the array are the same data type.
+Ans.   const arr1=[1,1,1];
+       const arr2=[1,1,2];
+
+       function all_Equal(array){
+         const result =array.every(element => {
+           if(element === array[0]){
+             return true;
+           }
+         });
+         return result;
+       }
+       console.log(all_Equal(arr1));
+       console.log(all_Equal(arr2));
+        
+Q10.  Write a  function to check valid or non_valid variable.
+Ans.   ///   
         
         
         
